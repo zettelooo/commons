@@ -4,8 +4,13 @@ Common basic types and implementations to be used by any other project.
 
 ## Installation
 
-Clone the repository locally:
+```bash
+$ npm install @zettelyay/commons
+```
 
+## Development
+
+Clone the repository locally:
 
 ```bash
 $ git clone https://github.com/zettelyay/commons.git
@@ -17,8 +22,6 @@ Install the dependencies:
 $ cd commons
 $ npm install
 ```
-
-## Development
 
 It's recommended to use **VS Code** to develop this project.
 You need to have **Prettier** and **ESLint** extensions to be installed on your IDE.
@@ -32,7 +35,7 @@ Lint check before commit:
 $ npm run lint-staged   # Alternatively:   $ npm run .l
 ```
 
-## Publishment
+## Publication
 
 Publish a new version of the NPM package:
 
@@ -44,6 +47,12 @@ $ npm version patch   # / minor / major / any other valid semantic version
 ```
 
 ## Misc
+
+Upgrade all official dependencies to Zettel packages:
+
+```bash
+$ npm run updates.peers
+```
 
 Check for all the updates available on the dependencies:
 
