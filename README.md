@@ -25,7 +25,6 @@ $ npm install
 
 It's recommended to use **VS Code** to develop this project.
 You need to have **Prettier** and **ESLint** extensions to be installed on your IDE.
-This project uses a modified version of the **Airbnb** style.
 
 > Linting will be called _automatically_ before committing. Any linting error will abort the process. Therefore, you possibly need to lint the staged changes manualy before trying to commit them yourself and fix all the errors and as much as possible of warnings first.
 
@@ -48,10 +47,16 @@ $ npm version patch   # / minor / major / any other valid semantic version
 
 ## Misc
 
-Upgrade all official dependencies to Zettel packages:
+Validate all official peer dependencies to Zettel packages:
 
 ```bash
-$ npm run updates.peers
+$ npm run peers.validate
+```
+
+Upgrade all official peer dependencies to Zettel packages:
+
+```bash
+$ npm run peers.upgrade
 ```
 
 Check for all the updates available on the dependencies:
