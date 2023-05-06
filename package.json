@@ -5,7 +5,7 @@
   "files": [
     "dist/**"
   ],
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     ".l": "npm run lint-staged",
