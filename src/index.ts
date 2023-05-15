@@ -1,3 +1,4 @@
+export * from './checkVersionCompatibility'
 export * from './delay'
 export * from './general'
 export * from './HandlerOutput'
