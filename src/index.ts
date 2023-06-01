@@ -1,5 +1,6 @@
 export * from './checkVersionCompatibility'
 export * from './delay'
 export * from './general'
+export * from './generateSequence'
 export * from './HandlerOutput'
 export * from './Keyboard'
