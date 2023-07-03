@@ -1,7 +1,7 @@
 {
   "name": "@zettelooo/commons",
   "description": "Zettel: Commons",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "files": [
     "dist/**"
   ],
